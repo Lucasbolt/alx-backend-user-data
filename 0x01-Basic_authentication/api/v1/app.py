@@ -51,7 +51,7 @@ def not_found(error) -> str:
 
 
 @app.errorhandler(401)
-def unauthorized_access(error):
+def unauthorized_access(error) -> str:
     """
     unauthorized access.
     """
@@ -59,7 +59,7 @@ def unauthorized_access(error):
 
 
 @app.errorhandler(403)
-def forbidden_access(error):
+def forbidden_access(error) -> str:
     """
     forbidden access.
     """
