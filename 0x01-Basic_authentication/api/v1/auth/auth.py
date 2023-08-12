@@ -11,7 +11,7 @@ class Auth:
     A Class to manage the API authentication.
     """
 
-    def require_auth(self, path: str, excluded_paths: List[str] ) -> bool:
+    def require_auth(self, path: str, excluded_paths: List[str]) -> bool:
         """
         Required auth
         """
